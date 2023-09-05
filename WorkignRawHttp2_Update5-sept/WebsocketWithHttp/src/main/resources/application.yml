@@ -1,0 +1,25 @@
+#spring:
+#  cloud:
+#    gateway:
+#      httpclient:
+#        ssl:
+#          useInsecureTrustManager: true
+
+#
+#spring:
+#  application:
+#    name: server-app
+#---
+#server:
+#  port: 9002
+#  ssl:
+#    enabled: true
+#    client-auth: need
+#    key-store: classpath:server-app.jks
+#    key-store-password: password
+#    key-alias: server-app
+#    key-store-type: JKS
+#    key-store-provider: SUN
+#    trust-store: classpath:server-app.jks
+#    trust-store-password: password
+#    trust-store-type: JKS

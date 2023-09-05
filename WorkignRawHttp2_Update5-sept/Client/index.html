@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REST Client</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Employee List</h1>
+<button id="fetchButton">Fetch Employees</button>
+<ul id="employeeList"></ul>
+
+
+<h1>Add Employee</h1>
+<input type="text" id="nameInput" placeholder="Name">
+<input type="number" id="ageInput" placeholder="Age">
+<input type="text" id="locationInput" placeholder="Location">
+<input type="text" id="emailInput" placeholder="Email">
+<input type="text" id="departmentInput" placeholder="Department">
+<button id="addButton">Add Employee</button>
+
+
+<h1>Fetch Employee by ID</h1>
+<input type="number" id="employeeIdInput" placeholder="Employee ID">
+<button id="fetchByIdButton">Fetch Employee by ID</button>
+<div id="fetchedEmployee"></div>
+
+<!-- ... (previous HTML code) -->
+
+<h1>Delete Employee by ID</h1>
+<input type="number" id="deleteEmployeeId" placeholder="Employee ID">
+<button id="deleteButton">Delete Employee</button>
+<div id="deleteStatus"></div>
+
+
+<!-- ... (previous HTML code) -->
+
+<h1>Update Employee</h1>
+<input type="number" id="updateEmployeeId" placeholder="Employee ID">
+<input type="text" id="updateNameInput" placeholder="New Name">
+<input type="number" id="updateAgeInput" placeholder="New Age">
+<input type="text" id="updateLocationInput" placeholder="New Location">
+<input type="text" id="updateEmailInput" placeholder="New Email">
+<input type="text" id="updateDepartmentInput" placeholder="New Department">
+<button id="updateButton">Update Employee</button>
+<div id="updateStatus"></div>
+
+
+
+<!-- ... (previous HTML code) -->
+
+<h1>Send Message to Server</h1>
+<input type="text" id="messageInput" placeholder="Message">
+<button id="sendMessageButton">Send Message</button>
+
+<h1>WebSocket Connection</h1>
+<button id="connectButton">Connect to WebSocket</button>
+<div id="websocketMessage"></div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
